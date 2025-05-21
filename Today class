@@ -1,0 +1,6 @@
+a = int(input("Enter a number:"))
+b = int(input("Enter a number"))
+p_or_n = (a>0) and (b > 0)
+is_greater = a>5 or b>5
+result = (p_or_n) and is_greater
+print(result)
